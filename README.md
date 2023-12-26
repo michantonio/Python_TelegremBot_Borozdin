@@ -1,1 +1,4 @@
-# Python_TelegremBot_Borozdin
+> Проект: 1.Условия, циклы и рекурсии (крестики\нолики)
+> Mikhail Borozdin
+> michantonio
+> mramorter@mail.ru

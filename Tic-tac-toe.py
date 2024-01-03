@@ -25,7 +25,7 @@ def ask_and_make_move(player, board):
     # координаты x, y взять из функции ask_move(player, board)
     make_move(player, board, x, y)
 
-def ask_move(player, board):
+def ask_move(player: object, board: object) -> object:
     # дать игроку возможность сделать ход, то есть ввести координаты
     x, y = input(f"{player}, enter x and y coordinates (e.g. 0 0): ").strip().split()
     # преобразовать координаты в целые числа
@@ -36,7 +36,8 @@ def ask_move(player, board):
         return(x, y)
     else:
         print("Клетка занята. Введите координаты еще раз.")
-    return ask_move(player, board)
+        return ask_move(player, board)
+    ask_move (player, board)
 
 def make_move(player, board, x, y):
     # проверить, что клетка свободна

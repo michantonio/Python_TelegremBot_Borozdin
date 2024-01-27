@@ -94,3 +94,4 @@ def tic_tac_toe():
         restart = input("Хотите сыграть еще раз? (y/n) ")
         if restart.lower() != "y":
             break
+tic_tac_toe()
